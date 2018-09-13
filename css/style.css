@@ -1,0 +1,36 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    position: relative;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#160404+8,207cca+89 */
+background: #160404; /* Old browsers */
+background: -moz-linear-gradient(45deg, #160404 8%, #207cca 89%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #160404 8%,#207cca 89%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #160404 8%,#207cca 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160404', endColorstr='#207cca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.raleway {
+    font-family: 'Raleway';
+}
+
+.has-bg-img {
+    background-image:url(../img/hero.jpg);
+    text-shadow: 1px 3px 17px rgba(0, 0, 0, 0.7);
+}
+
+#particle {
+    color:#fff;
+}
+
+.background {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}
+
+.hero-foot {
+    z-index: 1;
+}
